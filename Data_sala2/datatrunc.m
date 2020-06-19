@@ -1,18 +1,18 @@
 %import data: change file name as needed
-data = csvread('TEST1 copy.csv');
+data = csvread('test115.csv');
 
 %change to 1 if you want truncated data to be exported 
 export = 0; 
 
 %change export file name 
-filename = 'test82.csv';
+filename = 'test137.csv';
 
 %add indices to the data to make truncation easier
 index = [1:length(data)];
 data(:,1) = index;
 
 %change the indices as needed to truncate the data. 
-data = data([9000:16000],:); 
+data = data(:,:); 
 
 
 %DO NOT NEED TO CHANGE ANYTHING BELOW 

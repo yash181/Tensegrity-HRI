@@ -1,8 +1,8 @@
 %import data: change file name as needed
-data = csvread('TEST1 copy.csv');
+data = csvread('test05.csv');
 
 %change to 1 if you want truncated data to be exported 
-export = 0; 
+export = 1; 
 
 %change export file name 
 filename = 'test82.csv';
