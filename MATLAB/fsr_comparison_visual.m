@@ -12,14 +12,14 @@
 close all
 clc
 
-data_filename = 'TEST1A1.CSV';
+data_filename = 'C:\Users\andrb\Dropbox\BEST\Force Analysis\TEST2.CSV';
 
 % Parameters
 % Model
 true_model = false;
 
 % Custom plot interval
-ind = [1, 30];
+ind = [1, 3];
 
 % Highlight node signals
 nodes = [5, 6, 7, 8];
