@@ -1,5 +1,5 @@
 %import data: change file name as needed
-data = csvread('TEST1 copy.csv');
+data = csvread('rollTest8.csv');
 
 %change to 1 if you want truncated data to be exported 
 export = 0; 
@@ -12,7 +12,7 @@ index = [1:length(data)];
 data(:,1) = index;
 
 %change the indices as needed to truncate the data. 
-data = data([9000:16000],:); 
+data = data(:,:); 
 
 
 %DO NOT NEED TO CHANGE ANYTHING BELOW 
